@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    font-family: 'noto sans', sans-serif;
+    padding: 0 1rem;
+    background: linear-gradient(90deg, #FFE7D1 0%, #FFF2E6 100%);
+    height: 100vh;
+    
+}
+.cabecalho{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-color: var(--color-black);
+    border-style: solid;
+    border-width: 0 1px 1px 1px;
+    padding: 1.25rem;
+    
+
+}
+.inicio{
+    
+    color: #000000;
+
+}
+.cursos{
+    text-decoration: none;
+    color: #000000;
+    margin: 10px;
+}
+.eventos{
+    text-decoration: none;
+    color: #000000;
+    margin: 10px;
+}
+.contato{
+    
+    color: #000000;
+}
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 220px;
+    height: 50px;
+    background-color: #ED4D1B;
+    box-shadow: 4px 4px 1px #000000;
+    border: 2px solid #000000;
+    text-decoration: none;
+    color: #000000;
+    font-size: 20px;
+}
+
+.courses-section{
+    border-color: var(--color-black);
+    border-style: solid;
+    border-width: 0 1px 1px 1px;
+    padding: 1.25rem;
+
+}
+.hero-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-color: var(--color-black);
+    border-style: solid;
+    border-width: 0 1px 1px 1px;
+    padding: 1.25rem;
+}
+.cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    
+    
+}
+.card-1{
+    width: 200px;
+    height: 300px;
+    background-color: #ED4D1B;
+    box-shadow: 4px 4px 1px #000000;
+    border: 2px solid #000000;
+}
+.card-2{
+    width: 200px;
+    height: 300px;
+    background-color: #FF9A3C;
+    box-shadow: 4px 4px 1px #000000;
+    border: 2px solid #000000;
+}
+.card-3{
+    width: 200px;
+    height: 300px;
+    background-color: #ED4D1B;
+    box-shadow: 4px 4px 1px #000000;
+    border: 2px solid #000000;
+
+}
+.card-4{
+    width: 200px;
+    height: 300px;
+    background-color: #FF9A3C;
+    box-shadow: 4px 4px 1px #000000;
+    border: 2px solid #000000;
+
+}
+.texto{
+   margin: 30px;
+   
+}
+
+.text-primary{
+    color: #ED4D1B;
+}
+
+.curiosidade{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    margin: 20px;
+}
+.rodape{
+    border-color: var(--color-black);
+    border-style: solid;
+    border-width: 0 1px 1px 1px;
+    padding: 1.25rem;
+
+}
+.rodape{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.end{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    margin: 20px;
+}
+.email{
+    border-radius: 5px;
+    width: 230px;
+    height: 30px;
+    box-shadow: 4px 4px 1px #000000;
+    outline: none;
+}
+
+@media only screen and (max-width: 1338px){
+    .hero-section{
+        flex-direction: column;
+    }
+    .texto{
+        margin: 12px;
+    }
+    
+}
+@media only screen and (max-width: 767px){
+    .hero{
+        width: 380px;
+    }
+    .cabecalho{
+        flex-direction: column;
+        gap: 10px;
+    }
+    .button{
+        font-size: 15px;
+        width: 110px;
+    }
+    .informacao{
+        margin: 40px;
+
+    }
+    .paragrafo{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .cards{
+        flex-direction: column;
+    }
+    .button{
+        width: 150px;
+    }
+    .rodape{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+        
+}
